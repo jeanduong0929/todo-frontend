@@ -1,33 +1,38 @@
-# Project Overview
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This application will be a simple todo list manager, where users can add, edit, and delete tasks. The frontend will be built with Next.js, while the backend will be implemented with Spring Boot.
+## Getting Started
 
+First, run the development server:
 
-## User Story
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-1. As a user, I want to be able to add tasks to my todo list, so that I can keep track of what I need to do.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-2. As a user, I want to be able to edit tasks on my todo list, so that I can update them if anything changes.
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-3. As a user, I want to be able to mark tasks as completed, so that I can track my progress.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-4. As a user, I want to be able to delete tasks from my todo list, so that I can remove them once they are no longer needed.
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-5. As a user, I want to be able to view a list of all of my tasks, so that I can see everything that I need to do in one place.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-6. As a user, I want to be able to view the details of a specific task, so that I can see the name, description, and other information about it.
+## Learn More
 
-7. As a user, I want to be able to organize my tasks by priority, due date, or other criteria, so that I can focus on the most important or urgent tasks first.
+To learn more about Next.js, take a look at the following resources:
 
-8. As a user, I want to be able to search for tasks by keyword or other criteria, so that I can find specific tasks quickly and easily.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-These user stories represent some of the basic features that a todo list manager application should include. By addressing these user stories, the application can provide users with a useful and intuitive way to manage their tasks and stay organized.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Technologies
+## Deploy on Vercel
 
-- React: A popular JavaScript library for building user interfaces.
-- Next.js: A framework for building server-rendered React applications.
-- Axios: A promise-based HTTP client for making API calls from the browser.
-- Material-UI: A UI component library that provides pre-built React components for building user interfaces.
-- Tailwind CSS: A utility-first CSS framework for building custom designs.
-- Headless UI: A set of completely unstyled, fully accessible UI components for React.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
