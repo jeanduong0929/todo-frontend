@@ -22,3 +22,12 @@ This application will be a simple todo list manager, where users can add, edit, 
 8. As a user, I want to be able to search for tasks by keyword or other criteria, so that I can find specific tasks quickly and easily.
 
 These user stories represent some of the basic features that a todo list manager application should include. By addressing these user stories, the application can provide users with a useful and intuitive way to manage their tasks and stay organized.
+
+## Technologies
+
+- React: A popular JavaScript library for building user interfaces.
+- Next.js: A framework for building server-rendered React applications.
+- Axios: A promise-based HTTP client for making API calls from the browser.
+- Material-UI: A UI component library that provides pre-built React components for building user interfaces.
+- Tailwind CSS: A utility-first CSS framework for building custom designs.
+- Headless UI: A set of completely unstyled, fully accessible UI components for React.
