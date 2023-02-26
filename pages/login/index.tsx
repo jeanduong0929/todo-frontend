@@ -1,5 +1,6 @@
 import { AuthContext } from "@/contexts/authprovider";
 import TODO from "@/utils/axiosconfig";
+import Link from "next/link";
 import { useRouter } from "next/router";
 import { useContext, useState } from "react";
 
@@ -47,7 +48,7 @@ const LoginPage = () => {
     <>
       {/* Form to handle login. */}
       <form
-        className="flex flex-col items-center font-mono mt-40 gap-10"
+        className="flex flex-col items-center font-mono gap-10"
         onSubmit={handleLogin}
       >
         {/* Input container. */}
@@ -76,6 +77,9 @@ const LoginPage = () => {
           <button className="bg-blue-500 px-5 py-2 shadow-xl rounded-md text-white ease-out transition duration-300 hover:scale-110">
             Sign in
           </button>
+
+          {/* Link to the register page. */}
+          <Link href="/register" className="text-blue-500 underline underline-offset-8 decoration-1" >Create a new account</Link>
         </div>
       </form>
     </>
