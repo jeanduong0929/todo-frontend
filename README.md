@@ -33,4 +33,4 @@ TodoList is a web application designed to help users keep track of their tasks a
 - Machine learning-based prioritization of tasks based on user behavior and preferences
 
 ## Deployment
-The application will be deployed using Amazon Web Services (AWS) Elastic Beanstalk, with a MySQL database. Continuous integration and continuous deployment (CI/CD) will be set up using GitHub Actions, with automated testing and deployment to the production environment.
+The application will be deployed using Amazon Web Services (AWS) Elastic Beanstalk, with a PostGreSQL database. Continuous integration and continuous deployment (CI/CD) will be set up using GitHub Actions, with automated testing and deployment to the production environment.
